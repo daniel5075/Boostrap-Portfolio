@@ -1,9 +1,14 @@
 body{
-background-image: url(../images/papyrus.png)
+    background-image: url(../images/papyrus.png);
 }
 
+.containerBody{
+    background-color:#ffffff;
+    margin:40px;
+}
 .navbar {
- min-height: 60px;   
+ min-height: 60px;
+ border: 2px solid #cccccc;
 }
 .navbar-brand{
     font-size: 28px;
@@ -21,5 +26,32 @@ background-image: url(../images/papyrus.png)
 		text-align: center !important;
 		text-decoration: none;
 		cursor: pointer;
-        color: #777777;
+        color: #777777 !important;
 }
+h2{
+    font-size: 28px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+}
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #666666;
+    border-top:4px solid #4aaaa5;
+    text-align: center;
+    font-size: 8px;
+  }
+  .text-muted {
+      color: white !important;
+      
+  }
