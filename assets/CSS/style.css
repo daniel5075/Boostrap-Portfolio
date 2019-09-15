@@ -11,9 +11,9 @@ body{
  border: 2px solid #cccccc;
 }
 .navbar-brand{
-    font-size: 28px;
+    font-size: 30px;
     color:#ffffff !important;
-    background: #4aaaa5;
+    background: #44aaaa;
     position: absolute;
     margin-left: 120px;
 }
@@ -63,4 +63,7 @@ html {
     font-size: 16px;
     color:#ffffff;
     background: #4aaaa5;   
+  }
+  .btn-primary{
+      background-color: #4aaaa5;
   }
