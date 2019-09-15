@@ -55,3 +55,12 @@ html {
       color: white !important;
       
   }
+  .carousel-caption span{
+    position: absolute;
+    bottom: 0px;
+    left: -12px;
+    width: 175px;
+    font-size: 16px;
+    color:#ffffff;
+    background: #4aaaa5;   
+  }
