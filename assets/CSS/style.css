@@ -13,25 +13,17 @@ body{
 .navbar-brand{
     font-size: 30px;
     color:#ffffff !important;
-    background: #44aaaa;
-    position: absolute;
-    margin-left: 120px;
+    background: #44aaaa;  
 }
-.navbar-nav{
-    position: fixed;
-    right: 120px;
-}
+
 .nav-link, .nav-item{
-        border: none;
-		text-align: center !important;
-		text-decoration: none;
-		cursor: pointer;
-        color: #777777 !important;
+               color: #777777 !important;
 }
+
 h2{
     font-size: 28px;
-    color: #4aaaa5;
-    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5 !important;
+    border-bottom: 2px solid #cccccc !important;
 }
 html {
     position: relative;
@@ -44,13 +36,14 @@ html {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    height: 60px; /*Set the fixed height of the footer here*/
+    line-height: 60px; /*Vertically center the text there*/
     background-color: #666666;
     border-top:4px solid #4aaaa5;
     text-align: center;
     font-size: 8px;
-  }
+  } 
+
   .text-muted {
       color: white !important;
       
