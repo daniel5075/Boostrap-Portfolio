@@ -55,14 +55,15 @@ html {
       color: white !important;
       
   }
-  .carousel-caption span{
+  .center-block{
     position: absolute;
-    bottom: 0px;
-    left: -12px;
+    bottom: 20px;
+    left: 15px;
     width: 175px;
     font-size: 16px;
-    color:#ffffff;
-    background: #4aaaa5;   
+    color:#ffffff !important;
+    background: #4aaaa5  !important; 
+    text-align: center;  
   }
   .btn-primary{
       background-color: #4aaaa5;
